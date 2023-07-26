@@ -1,0 +1,8 @@
+model_config:
+  layer_numbers: 4
+
+layer:
+  1: [[conv], [1, 8, [3, 3], 1, 1, 1, 1]]
+  2: [[relu], []]
+  3: [[conv], [8, 8, [3, 3], 1, 1, 1, 1]]
+  4: [[relu], []]
